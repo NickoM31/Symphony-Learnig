@@ -1,18 +1,5 @@
 <!-- { src/OC/PlatformBundle/Resources/views/Advert/index.html.twig }
  -->
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Bienvenue sur ma première page Symfony !</title>
-  </head>
-  <body>
-    <h1>Hello {{ nom }} Hell !</h1>
-
-    <p>
-      Le Hello Hell n'est pas un grand classique en programmation.
-      Il signifie énormément, car cela veut dire que vous avez
-      réussi à exécuter le programme pour accomplir une tâche simple dans d'atroce souffrance :
-      afficher ce hello hell !
-    </p>
-  </body>
-</html>
+<a href="{{ path('oc_platform_view', { $url }) }}">
+    Lien vers l'annonce d'id {{ advert_id }}
+</a>

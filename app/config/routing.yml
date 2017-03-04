@@ -1,5 +1,5 @@
 nicko_platform:
     resource: "@NickoPlatformBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /platform
 
 
